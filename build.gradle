@@ -1,13 +1,3 @@
-project.version = getVersion()
-println "Building version ${project.version}"
-
-allprojects {
-    repositories {
-        mavenCentral()
-        mavenLocal()
-    }
-}
-
 buildscript {
     repositories {
         maven {
@@ -20,6 +10,22 @@ buildscript {
     }
 }
 
+plugins {
+  // Checker Framework pluggable type-checking
+  id 'org.checkerframework' version '0.6.35' apply false
+}
+
+allprojects {
+  repositories {
+    mavenCentral()
+    mavenLocal()
+  }
+}
+
+project.version = getVersion()
+println "Building version ${project.version}"
+
+
 subprojects {
     apply plugin: 'java'
     apply plugin: 'jacoco'
@@ -27,6 +33,8 @@ subprojects {
 
     apply plugin: 'idea'
     apply plugin: 'com.github.ben-manes.versions'
+
+    apply plugin: 'org.checkerframework'
 
     group = 'se.llbit'
     version = rootProject.version
@@ -49,6 +57,17 @@ subprojects {
     javadoc {
         options.encoding = 'UTF-8'
         options.addStringOption('Xdoclint:none', '-quiet')
+    }
+    checkerFramework {
+        checkers = ['org.checkerframework.checker.optional.OptionalChecker']
+        extraJavacArgs = [
+          '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
+          '-AassumePure'
+        ]
+    }
+    dependencies {
+        checkerFramework 'org.checkerframework:checker:3.40.0'
+        implementation 'org.checkerframework:checker-qual:3.40.0'
     }
 
     configurations {
