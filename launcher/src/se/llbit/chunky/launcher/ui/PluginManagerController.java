@@ -77,6 +77,7 @@ public class PluginManagerController implements Initializable {
 
   private File pluginsDirectory = SettingsDirectory.getPluginsDirectory();
 
+  @SuppressWarnings("optional:method.invocation") // tp-get-empty : Option created with .ofNullable in library on something that is not null in current implementation. However, the implementation of the library is not a contract and could change.
   @Override public void initialize(URL location, ResourceBundle resources) {
     saveButton.setOnAction(e -> {
       JsonArray array = new JsonArray();

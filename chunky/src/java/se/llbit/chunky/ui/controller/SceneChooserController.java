@@ -68,6 +68,7 @@ public class SceneChooserController implements Initializable {
 
   private static final HashMap<FileTimeCache, SceneListItem> sceneListCache = new HashMap<>();
 
+  @SuppressWarnings("optional:method.invocation") // tp-get-empty : Option created with .ofNullable in library on something that is not null in current implementation. However, the implementation of the library is not a contract and could change.
   @Override public void initialize(URL location, ResourceBundle resources) {
     exportBtn.setTooltip(new Tooltip("Exports the selected scene as a Zip archive."));
     exportBtn.setOnAction(e -> {

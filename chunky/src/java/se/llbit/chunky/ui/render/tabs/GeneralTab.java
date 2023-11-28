@@ -195,6 +195,7 @@ public class GeneralTab extends ScrollPane implements RenderControlsTab, Initial
     return this.wrapper;
   }
 
+  @SuppressWarnings("optional:method.invocation") // tp-get-empty : Option created with .ofNullable in library on something that is not null in current implementation. However, the implementation of the library is not a contract and could change.
   @Override public void initialize(URL location, ResourceBundle resources) {
     // TODO: parentTab.setGraphic(new ImageView(Icon.wrench.fxImage()));
 
