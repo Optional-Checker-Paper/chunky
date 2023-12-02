@@ -1,13 +1,3 @@
-project.version = getVersion()
-println "Building version ${project.version}"
-
-allprojects {
-    repositories {
-        mavenCentral()
-        mavenLocal()
-    }
-}
-
 buildscript {
     repositories {
         maven {
@@ -20,6 +10,20 @@ buildscript {
     }
 }
 
+plugins {
+  id "com.github.spotbugs" version "5.2.5"
+}
+
+project.version = getVersion()
+println "Building version ${project.version}"
+
+allprojects {
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+}
+
 subprojects {
     apply plugin: 'java'
     apply plugin: 'jacoco'
@@ -27,6 +31,7 @@ subprojects {
 
     apply plugin: 'idea'
     apply plugin: 'com.github.ben-manes.versions'
+    apply plugin: 'com.github.spotbugs'
 
     group = 'se.llbit'
     version = rootProject.version
@@ -64,6 +69,15 @@ subprojects {
         cplib 'se.llbit:luxcp:1.0.1'
         toolpanelib 'se.llbit:toolpane:0.1'
     }
+
+    spotbugs {
+      ignoreFailures = true
+      toolVersion = '4.8.2'
+      effort = 'default'
+      reportLevel = 'default'
+      reportsDir = file("$buildDir/spotbugs")
+    }
+
 
     idea {
         module {
