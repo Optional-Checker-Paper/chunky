@@ -62,8 +62,10 @@ subprojects {
         checkers = ['org.checkerframework.checker.optional.OptionalChecker']
         extraJavacArgs = [
           '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
-          '-AassumePure'
-        ]
+          '-AassumePure',
+          '-AwarnUnneededSuppressions'
+       ]  
+       excludeTests = true
     }
     dependencies {
         checkerFramework 'org.checkerframework:checker:3.40.0'
