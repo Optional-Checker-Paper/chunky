@@ -45,7 +45,8 @@ subprojects {
     compileJava {
         options.encoding = 'UTF-8'
         options.debug = true
-        options.deprecation = true
+        options.deprecation = false
+        options.compilerArgs += '-Xlint:-deprecation'
     }
 
     javafx {

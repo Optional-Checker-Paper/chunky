@@ -97,6 +97,7 @@ public class GradientEditor extends VBox implements Initializable {
     loader.load();
   }
 
+  @SuppressWarnings("optional:prefer.ifpresent")  // prefer-ifpresent
   @Override public void initialize(URL location, ResourceBundle resources) {
     for (String[] preset : presets) {
       MenuItem menuItem = new MenuItem(preset[0]);
