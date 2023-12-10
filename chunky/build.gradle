@@ -166,5 +166,6 @@ publishing {
       name 'Build'
       url layout.buildDirectory.dir('maven')
     }
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
   }
 }
