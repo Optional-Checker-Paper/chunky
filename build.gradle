@@ -254,6 +254,7 @@ task install(dependsOn: ':chunky:publish') {
 }
 
 // Includes both main and library documentation:
+/*
 task docs(type: Javadoc) {
     options.encoding = 'UTF-8'
     options.addStringOption('Xdoclint:none', '-quiet')
@@ -263,6 +264,7 @@ task docs(type: Javadoc) {
     classpath = files(docProjects.collect { project(it).sourceSets.main.compileClasspath })
     destinationDir = file("${buildDir}/docs/javadoc")
 }
+*/
 
 task clean {
     doLast {

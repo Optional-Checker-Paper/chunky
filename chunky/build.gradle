@@ -88,19 +88,23 @@ task updateVersionString {
   }
 }
 
+/*
 task javadocJar(type: Jar) {
   from rootProject.docs
   archiveClassifier.set('javadoc')
 }
+*/
 
 task sourcesJar(type: Jar) {
   from sourceSets.main.allSource
   archiveClassifier.set('sources')
 }
 
+/*
 artifacts {
   archives javadocJar, sourcesJar
 }
+*/
 
 publishing {
   publications {
@@ -132,8 +136,10 @@ publishing {
           }
         }
       }
+      /*
       artifact sourcesJar
       artifact javadocJar
+      */
     }
 
     // fix dependency scopes (see https://discuss.gradle.org/t/maven-publish-plugin-generated-pom-making-dependency-scope-runtime/7494/9)

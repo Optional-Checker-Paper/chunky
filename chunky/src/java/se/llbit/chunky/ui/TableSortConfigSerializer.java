@@ -22,7 +22,6 @@ public class TableSortConfigSerializer {
         return columns;
     }
 
-    @SuppressWarnings("optional:method.invocation") // application-invariant : Valid .get inside an .ifPresent lambda.
     public static <T> void applySortConfig(TableView<T> table, JsonArray config) {
         List<TableColumn<T, ?>> columns = new ArrayList<>();
         for (JsonValue value : config) {
