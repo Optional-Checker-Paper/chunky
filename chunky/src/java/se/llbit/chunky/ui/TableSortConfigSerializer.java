@@ -22,6 +22,7 @@ public class TableSortConfigSerializer {
         return columns;
     }
 
+    @SupressWarnings("UnnecessaryOptionalGet") // error-prone-unnecessary-optional-get
     public static <T> void applySortConfig(TableView<T> table, JsonArray config) {
         List<TableColumn<T, ?>> columns = new ArrayList<>();
         for (JsonValue value : config) {
