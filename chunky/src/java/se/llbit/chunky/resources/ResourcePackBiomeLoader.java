@@ -53,6 +53,7 @@ public class ResourcePackBiomeLoader implements ResourcePackLoader.PackLoader {
     public String grass_color_modifier = null;
   }
 
+  @SuppressWarnings("optional:introduce.eliminate")  // style-introduce-eliminate
   @Override
   public boolean load(Path pack, String baseName) {
     Path data = pack.resolve("data");
