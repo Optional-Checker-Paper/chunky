@@ -1,0 +1,6 @@
+import org.checkerframework.common.util.report.qual.*;
+
+package java.util;
+
+@ReportUse
+class Optional<T> {}

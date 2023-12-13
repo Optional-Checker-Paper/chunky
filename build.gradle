@@ -63,12 +63,16 @@ subprojects {
     tasks.withType(Javadoc).all { enabled = false }
 
     checkerFramework {
-        checkers = ['org.checkerframework.checker.optional.OptionalChecker']
+        checkers = [
+          'org.checkerframework.checker.optional.OptionalChecker',
+          'org.checkerframework.common.util.report.ReportChecker'
+        ]
         extraJavacArgs = [
           '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
           '-AassumePure',
           '-AwarnUnneededSuppressions',
-          '-AassumeAssertionsAreEnabled'
+          '-AassumeAssertionsAreEnabled',
+          "-Astubs=${project.projectDir}/reportoptional.astub",
        ]
        excludeTests = true
     }
@@ -272,3 +276,9 @@ task clean {
         delete "./build"
     }
 }
+
+afterEvaluate {
+     tasks.withType(JavaCompile) {
+         options.compilerArgs << "-Xmaxerrs" << "99999"
+     }
+ }
