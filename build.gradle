@@ -64,7 +64,6 @@ subprojects {
 
     checkerFramework {
         checkers = [
-          'org.checkerframework.checker.optional.OptionalChecker',
           'org.checkerframework.common.util.count.report.ReportChecker'
         ]
         extraJavacArgs = [
@@ -72,6 +71,7 @@ subprojects {
           '-AassumePure',
           '-AwarnUnneededSuppressions',
           '-AassumeAssertionsAreEnabled',
+          '-AReportChecker_warns',
           "-Astubs=${project.projectDir}/reportoptional.astub",
        ]
        excludeTests = true
@@ -279,6 +279,6 @@ task clean {
 
 afterEvaluate {
      tasks.withType(JavaCompile) {
-         options.compilerArgs << "-Xmaxerrs" << "99999"
+         options.compilerArgs << "-Xmaxwarns" << "99999"
      }
  }
