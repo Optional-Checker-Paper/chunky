@@ -1,0 +1,5 @@
+run:
+  ./gradlew --no-build-cache --clean
+and then:
+  ./gradlew --no-build-cache assemble 2>&1 | tee build-log.txt
+
