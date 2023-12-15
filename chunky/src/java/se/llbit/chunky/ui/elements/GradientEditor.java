@@ -97,6 +97,7 @@ public class GradientEditor extends VBox implements Initializable {
     loader.load();
   }
 
+  @SuppressWarnings("OptionalIsPresent") // intellij-suppression-optional-is-present
   @Override public void initialize(URL location, ResourceBundle resources) {
     for (String[] preset : presets) {
       MenuItem menuItem = new MenuItem(preset[0]);

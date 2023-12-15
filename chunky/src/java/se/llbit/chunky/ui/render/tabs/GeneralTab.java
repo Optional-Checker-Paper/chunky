@@ -195,6 +195,7 @@ public class GeneralTab extends ScrollPane implements RenderControlsTab, Initial
     return this.wrapper;
   }
 
+  @SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-tp
   @Override public void initialize(URL location, ResourceBundle resources) {
     // TODO: parentTab.setGraphic(new ImageView(Icon.wrench.fxImage()));
 

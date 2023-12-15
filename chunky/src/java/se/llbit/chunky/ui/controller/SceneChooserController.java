@@ -68,6 +68,7 @@ public class SceneChooserController implements Initializable {
 
   private static final HashMap<FileTimeCache, SceneListItem> sceneListCache = new HashMap<>();
 
+  @SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-tp
   @Override public void initialize(URL location, ResourceBundle resources) {
     exportBtn.setTooltip(new Tooltip("Exports the selected scene as a Zip archive."));
     exportBtn.setOnAction(e -> {

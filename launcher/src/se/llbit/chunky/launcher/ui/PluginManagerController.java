@@ -77,6 +77,7 @@ public class PluginManagerController implements Initializable {
 
   private File pluginsDirectory = SettingsDirectory.getPluginsDirectory();
 
+  @SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-tp
   @Override public void initialize(URL location, ResourceBundle resources) {
     saveButton.setOnAction(e -> {
       JsonArray array = new JsonArray();
