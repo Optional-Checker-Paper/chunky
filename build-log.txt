@@ -1,0 +1,785 @@
+-*- mode: compilation; default-directory: "chunky/" -*-
+Compilation started at Thu Dec 14 15:59:48
+
+./gradlew assemble
+
+> Configure project :
+Warning: failed to run 'git' (args: [describe, --abbrev=7, --long])
+fatal: No names found, cannot describe anything.
+
+Building version 2.5.0-DEV.0
+Project :chunky => no module-info.java found
+Project :launcher => no module-info.java found
+Project :lib => no module-info.java found
+Project :releasetools => no module-info.java found
+
+> Task :chunky:createCheckerFrameworkManifest
+> Task :lib:createCheckerFrameworkManifest
+
+> Task :lib:compileJava
+warning: ReportChecker did not find annotation file or directory chunky/lib/reportoptional.astub on classpath or within directory chunky/lib
+    Classpath:
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-java-compiler-plugin-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-language-java-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-language-jvm-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-platform-base-8.0.2.jar
+    file:/homes/gws/mernst/.m2/repository/org/checkerframework/checker/3.41.1-SNAPSHOT/checker-3.41.1-SNAPSHOT.jar
+    file:/homes/gws/mernst/.m2/repository/org/checkerframework/checker-util/3.41.1-SNAPSHOT/checker-util-3.41.1-SNAPSHOT.jar
+    file:/homes/gws/mernst/.m2/repository/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/checker-qual-3.41.1-SNAPSHOT.jar
+    file://chunky/lib/build/checkerframework/
+    file:.gradle/caches/8.0.2/workerMain/gradle-worker.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-base-services-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/guava-31.1-jre.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-messaging-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-model-core-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-logging-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-logging-api-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-core-api-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-workers-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/native-platform-0.22-milestone-24.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-core-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-native-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-file-collections-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-worker-processes-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-process-services-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/slf4j-api-1.7.30.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-persistent-cache-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-files-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-hashing-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-snapshots-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/groovy-3.0.13.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/groovy-ant-3.0.13.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/groovy-json-3.0.13.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/groovy-xml-3.0.13.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/kryo-2.24.0.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-cli-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/jul-to-slf4j-1.7.30.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/javax.inject-1.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-jvm-services-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/asm-9.3.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-enterprise-logging-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-enterprise-workers-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-wrapper-shared-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-dependency-management-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-file-temp-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-base-annotations-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-build-operations-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/commons-lang-2.6.jar
+Note: chunky/lib/src/se/llbit/chunky/ui/Adjuster.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+> Task :lib:processResources NO-SOURCE
+> Task :lib:classes
+> Task :lib:jar
+
+> Task :chunky:compileJava
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/Scene.java:158: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+      .getPostProcessingFilterFromId("GAMMA").orElse(PostProcessingFilters.NONE);
+                                                    ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/Scene.java:158: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+      .getPostProcessingFilterFromId("GAMMA").orElse(PostProcessingFilters.NONE);
+                                             ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/Scene.java:2880: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+            .orElseGet(() -> {
+                      ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/Scene.java:2880: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+            .orElseGet(() -> {
+            ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/Scene.java:2889: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+      .orElse(PictureExportFormats.PNG);
+             ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/Scene.java:2889: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+      .orElse(PictureExportFormats.PNG);
+      ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/Sky.java:741: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        Optional<SimulatedSky> match = skies.stream().filter(skyMode -> skyMode.getName().equals(simSkyName)).findAny();
+                               ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/Sky.java:741: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        Optional<SimulatedSky> match = skies.stream().filter(skyMode -> skyMode.getName().equals(simSkyName)).findAny();
+                                                                                                                     ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/Sky.java:743: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+        simulatedSkyMode = match.orElseGet(() -> simulatedSkyMode);
+                                          ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/Sky.java:743: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+        simulatedSkyMode = match.orElseGet(() -> simulatedSkyMode);
+                                ^
+chunky/chunky/src/java/se/llbit/chunky/world/World.java:466: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<File> getResourcePack() {
+                        ^
+chunky/chunky/src/java/se/llbit/chunky/world/World.java:466: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<File> getResourcePack() {
+                        ^
+chunky/chunky/src/java/se/llbit/chunky/world/World.java:469: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(resourcePack);
+                        ^
+chunky/chunky/src/java/se/llbit/chunky/world/World.java:469: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(resourcePack);
+                        ^
+chunky/chunky/src/java/se/llbit/chunky/world/World.java:469: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(resourcePack);
+                     ^
+chunky/chunky/src/java/se/llbit/chunky/world/World.java:466: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<File> getResourcePack() {
+                        ^
+chunky/chunky/src/java/se/llbit/chunky/world/World.java:473: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(resourcePack);
+                        ^
+chunky/chunky/src/java/se/llbit/chunky/world/World.java:473: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(resourcePack);
+                        ^
+chunky/chunky/src/java/se/llbit/chunky/world/World.java:473: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(resourcePack);
+                     ^
+chunky/chunky/src/java/se/llbit/chunky/world/World.java:466: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<File> getResourcePack() {
+                        ^
+chunky/chunky/src/java/se/llbit/chunky/world/World.java:475: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+chunky/chunky/src/java/se/llbit/chunky/world/World.java:475: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+chunky/chunky/src/java/se/llbit/chunky/world/World.java:475: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/SceneEntities.java:119: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+          Optional<MinecraftSkin> skin = profile.getSkin();
+                                  ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/SceneEntities.java:119: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+          Optional<MinecraftSkin> skin = profile.getSkin();
+                                                        ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/SceneEntities.java:120: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+          if (skin.isPresent()) {
+                            ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/SceneEntities.java:120: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+          if (skin.isPresent()) {
+                  ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/SceneEntities.java:121: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            String skinUrl = skin.get().getSkinUrl();
+                                     ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/SceneEntities.java:121: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            String skinUrl = skin.get().getSkinUrl();
+                                 ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/SceneEntities.java:125: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            entity.model = skin.get().getPlayerModel();
+                                   ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/scene/SceneEntities.java:125: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            entity.model = skin.get().getPlayerModel();
+                               ^
+chunky/chunky/src/java/se/llbit/chunky/entity/PlayerEntity.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                Optional<MinecraftSkin> skin = profile.getSkin();
+                                        ^
+chunky/chunky/src/java/se/llbit/chunky/entity/PlayerEntity.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                Optional<MinecraftSkin> skin = profile.getSkin();
+                                                              ^
+chunky/chunky/src/java/se/llbit/chunky/entity/PlayerEntity.java:148: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+                skin.ifPresent(minecraftSkin -> item.add("skin", minecraftSkin.getSkinUrl()));
+                              ^
+chunky/chunky/src/java/se/llbit/chunky/entity/PlayerEntity.java:148: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+                skin.ifPresent(minecraftSkin -> item.add("skin", minecraftSkin.getSkinUrl()));
+                    ^
+chunky/chunky/src/java/se/llbit/chunky/entity/PlayerEntity.java:213: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+          Optional<String> skinUrl = profile.getSkin().map(MinecraftSkin::getSkinUrl);
+                           ^
+chunky/chunky/src/java/se/llbit/chunky/entity/PlayerEntity.java:213: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+          Optional<String> skinUrl = profile.getSkin().map(MinecraftSkin::getSkinUrl);
+                                                          ^
+chunky/chunky/src/java/se/llbit/chunky/entity/PlayerEntity.java:213: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+          Optional<String> skinUrl = profile.getSkin().map(MinecraftSkin::getSkinUrl);
+                                                          ^
+chunky/chunky/src/java/se/llbit/chunky/entity/PlayerEntity.java:213: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+          Optional<String> skinUrl = profile.getSkin().map(MinecraftSkin::getSkinUrl);
+                                                      ^
+chunky/chunky/src/java/se/llbit/chunky/entity/PlayerEntity.java:214: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+          if (skinUrl.isPresent()) {
+                               ^
+chunky/chunky/src/java/se/llbit/chunky/entity/PlayerEntity.java:214: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+          if (skinUrl.isPresent()) {
+                     ^
+chunky/chunky/src/java/se/llbit/chunky/entity/PlayerEntity.java:215: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            File skinFile = MojangApi.downloadSkin(skinUrl.get());
+                                                              ^
+chunky/chunky/src/java/se/llbit/chunky/entity/PlayerEntity.java:215: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            File skinFile = MojangApi.downloadSkin(skinUrl.get());
+                                                          ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftProfile.java:12: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<MinecraftSkin> getSkin() {
+                                 ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftProfile.java:12: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<MinecraftSkin> getSkin() {
+                                 ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftProfile.java:13: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return getProperty("textures").flatMap(MinecraftSkin::getSkinFromEncodedTextures);
+                                          ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftProfile.java:13: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>flatMap(java.util.function.Function<? super T,? extends java.util.Optional<? extends U>>) [METHOD]
+    return getProperty("textures").flatMap(MinecraftSkin::getSkinFromEncodedTextures);
+                                          ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftProfile.java:13: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>flatMap(java.util.function.Function<? super T,? extends java.util.Optional<? extends U>>) [METHOD]
+    return getProperty("textures").flatMap(MinecraftSkin::getSkinFromEncodedTextures);
+                                  ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftProfile.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getProperty(String name) {
+                          ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftProfile.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getProperty(String name) {
+                          ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftProfile.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+          return Optional.of(property.value);
+                            ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftProfile.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+          return Optional.of(property.value);
+                            ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftProfile.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+          return Optional.of(property.value);
+                         ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftProfile.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getProperty(String name) {
+                          ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftProfile.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftProfile.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftProfile.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftSkin.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<MinecraftSkin> getSkinFromEncodedTextures(String textureBase64) {
+                                        ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftSkin.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<MinecraftSkin> getSkinFromEncodedTextures(String textureBase64) {
+                                        ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftSkin.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.of(MojangApi.GSON.fromJson(decoded, MinecraftSkin.class));
+                          ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftSkin.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return Optional.of(MojangApi.GSON.fromJson(decoded, MinecraftSkin.class));
+                          ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftSkin.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return Optional.of(MojangApi.GSON.fromJson(decoded, MinecraftSkin.class));
+                       ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftSkin.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<MinecraftSkin> getSkinFromEncodedTextures(String textureBase64) {
+                                        ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftSkin.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftSkin.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+chunky/chunky/src/java/se/llbit/util/mojangapi/MinecraftSkin.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+chunky/chunky/src/java/se/llbit/chunky/world/Dimension.java:189: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public synchronized Optional<Vector3> getPlayerPos() {
+                                        ^
+chunky/chunky/src/java/se/llbit/chunky/world/Dimension.java:189: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public synchronized Optional<Vector3> getPlayerPos() {
+                                        ^
+chunky/chunky/src/java/se/llbit/chunky/world/Dimension.java:192: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(new Vector3(pos.x, pos.y, pos.z));
+                        ^
+chunky/chunky/src/java/se/llbit/chunky/world/Dimension.java:192: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(new Vector3(pos.x, pos.y, pos.z));
+                        ^
+chunky/chunky/src/java/se/llbit/chunky/world/Dimension.java:192: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(new Vector3(pos.x, pos.y, pos.z));
+                     ^
+chunky/chunky/src/java/se/llbit/chunky/world/Dimension.java:189: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public synchronized Optional<Vector3> getPlayerPos() {
+                                        ^
+chunky/chunky/src/java/se/llbit/chunky/world/Dimension.java:194: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.empty();
+                           ^
+chunky/chunky/src/java/se/llbit/chunky/world/Dimension.java:194: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Optional.empty();
+                           ^
+chunky/chunky/src/java/se/llbit/chunky/world/Dimension.java:194: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Optional.empty();
+                     ^
+chunky/chunky/src/java/se/llbit/chunky/world/Dimension.java:269: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Vector3i> getSpawnPosition() {
+                            ^
+chunky/chunky/src/java/se/llbit/chunky/world/Dimension.java:269: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Vector3i> getSpawnPosition() {
+                            ^
+chunky/chunky/src/java/se/llbit/chunky/world/Dimension.java:270: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(this.spawnPos);
+                              ^
+chunky/chunky/src/java/se/llbit/chunky/world/Dimension.java:270: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(this.spawnPos);
+                              ^
+chunky/chunky/src/java/se/llbit/chunky/world/Dimension.java:270: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(this.spawnPos);
+                   ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:350: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            if (loadWorldConfirm.showAndWait().orElse(ButtonType.CANCEL) == ButtonType.YES) {
+                                                     ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:350: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            if (loadWorldConfirm.showAndWait().orElse(ButtonType.CANCEL) == ButtonType.YES) {
+                                              ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:391: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+      String newName = AsynchronousSceneManager.sanitizedSceneName(sceneNameDialog.showAndWait().orElse(""), "");
+                                                                                                       ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:391: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+      String newName = AsynchronousSceneManager.sanitizedSceneName(sceneNameDialog.showAndWait().orElse(""), "");
+                                                                                                ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:403: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+      String newName = AsynchronousSceneManager.sanitizedSceneName(sceneNameDialog.showAndWait().orElse(""), "");
+                                                                                                       ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:403: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+      String newName = AsynchronousSceneManager.sanitizedSceneName(sceneNameDialog.showAndWait().orElse(""), "");
+                                                                                                ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:459: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+          Optional<Vector3> playerPos = world.currentDimension().getPlayerPos();
+                            ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:459: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+          Optional<Vector3> playerPos = world.currentDimension().getPlayerPos();
+                                                                             ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:465: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+                  mapView.panTo(playerPos.orElse(new Vector3(0, 0, 0)));
+                                                ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:465: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+                  mapView.panTo(playerPos.orElse(new Vector3(0, 0, 0)));
+                                         ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:501: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+        mapLoader.withWorld(world -> world.currentDimension().getPlayerPos().ifPresent(mapView::panTo));
+                                                                                      ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:501: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+        mapLoader.withWorld(world -> world.currentDimension().getPlayerPos().ifPresent(mapView::panTo));
+                                                                            ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:759: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+      .findFirst().ifPresent(fileChooser::setSelectedExtensionFilter);
+                            ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:759: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+      .findFirst().ifPresent(fileChooser::setSelectedExtensionFilter);
+                  ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:818: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+          .orElse(ButtonType.CANCEL);
+                 ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:818: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+          .orElse(ButtonType.CANCEL);
+          ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:916: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+      if (alert.showAndWait().orElse(ButtonType.CANCEL) != ButtonType.OK) {
+                                    ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ChunkyFxController.java:916: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+      if (alert.showAndWait().orElse(ButtonType.CANCEL) != ButtonType.OK) {
+                             ^
+chunky/chunky/src/java/se/llbit/chunky/ui/ChunkMap.java:620: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+    world.currentDimension().getSpawnPosition().ifPresent(spawnPos -> {
+                                                         ^
+chunky/chunky/src/java/se/llbit/chunky/ui/ChunkMap.java:620: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+    world.currentDimension().getSpawnPosition().ifPresent(spawnPos -> {
+                                               ^
+chunky/chunky/src/java/se/llbit/chunky/ui/ChunkMap.java:870: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+      if (selectionRadiusDialog.showAndWait().orElse(ButtonType.CANCEL) == ButtonType.OK) {
+                                                    ^
+chunky/chunky/src/java/se/llbit/chunky/ui/ChunkMap.java:870: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+      if (selectionRadiusDialog.showAndWait().orElse(ButtonType.CANCEL) == ButtonType.OK) {
+                                             ^
+chunky/chunky/src/java/se/llbit/chunky/block/Head.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+      return MinecraftSkin.getSkinFromEncodedTextures(textureBase64).map(MinecraftSkin::getSkinUrl).orElse(null);
+                                                                                                          ^
+chunky/chunky/src/java/se/llbit/chunky/block/Head.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+      return MinecraftSkin.getSkinFromEncodedTextures(textureBase64).map(MinecraftSkin::getSkinUrl).orElse(null);
+                                                                                                   ^
+chunky/chunky/src/java/se/llbit/chunky/block/Head.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+      return MinecraftSkin.getSkinFromEncodedTextures(textureBase64).map(MinecraftSkin::getSkinUrl).orElse(null);
+                                                                        ^
+chunky/chunky/src/java/se/llbit/chunky/block/Head.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+      return MinecraftSkin.getSkinFromEncodedTextures(textureBase64).map(MinecraftSkin::getSkinUrl).orElse(null);
+                                                                    ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/export/PictureExportFormats.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<PictureExportFormat> getFormat(String name) {
+                                              ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/export/PictureExportFormats.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<PictureExportFormat> getFormat(String name) {
+                                              ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/export/PictureExportFormats.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(formats.get(name));
+                              ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/export/PictureExportFormats.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(formats.get(name));
+                              ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/export/PictureExportFormats.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(formats.get(name));
+                   ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/postprocessing/PostProcessingFilters.java:23: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<PostProcessingFilter> getPostProcessingFilterFromId(String id) {
+                                               ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/postprocessing/PostProcessingFilters.java:23: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<PostProcessingFilter> getPostProcessingFilterFromId(String id) {
+                                               ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/postprocessing/PostProcessingFilters.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(filters.get(id));
+                              ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/postprocessing/PostProcessingFilters.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(filters.get(id));
+                              ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/postprocessing/PostProcessingFilters.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(filters.get(id));
+                   ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/postprocessing/PostProcessingFilters.java:30: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<PostProcessingFilter> getPostProcessingFilterFromName(String name) {
+                                               ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/postprocessing/PostProcessingFilters.java:30: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<PostProcessingFilter> getPostProcessingFilterFromName(String name) {
+                                               ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/postprocessing/PostProcessingFilters.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(filtersByName.get(name));
+                              ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/postprocessing/PostProcessingFilters.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(filtersByName.get(name));
+                              ^
+chunky/chunky/src/java/se/llbit/chunky/renderer/postprocessing/PostProcessingFilters.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(filtersByName.get(name));
+                   ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:78: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+                      Optional.ofNullable(json.effects.foliage_color).ifPresent(builder::foliageColor);
+                                                                               ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:78: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+                      Optional.ofNullable(json.effects.foliage_color).ifPresent(builder::foliageColor);
+                                                                     ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:78: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+                      Optional.ofNullable(json.effects.foliage_color).ifPresent(builder::foliageColor);
+                                         ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:78: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+                      Optional.ofNullable(json.effects.foliage_color).ifPresent(builder::foliageColor);
+                              ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+                      Optional.ofNullable(json.effects.grass_color).ifPresent(builder::grassColor);
+                                                                             ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+                      Optional.ofNullable(json.effects.grass_color).ifPresent(builder::grassColor);
+                                                                   ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+                      Optional.ofNullable(json.effects.grass_color).ifPresent(builder::grassColor);
+                                         ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+                      Optional.ofNullable(json.effects.grass_color).ifPresent(builder::grassColor);
+                              ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+                      Optional.ofNullable(json.effects.water_color).ifPresent(builder::waterColor);
+                                                                             ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+                      Optional.ofNullable(json.effects.water_color).ifPresent(builder::waterColor);
+                                                                   ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+                      Optional.ofNullable(json.effects.water_color).ifPresent(builder::waterColor);
+                                         ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+                      Optional.ofNullable(json.effects.water_color).ifPresent(builder::waterColor);
+                              ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:81: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+                      Optional.ofNullable(json.effects.grass_color_modifier).ifPresent(modifier -> {
+                                                                                      ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:81: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+                      Optional.ofNullable(json.effects.grass_color_modifier).ifPresent(modifier -> {
+                                                                            ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:81: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+                      Optional.ofNullable(json.effects.grass_color_modifier).ifPresent(modifier -> {
+                                         ^
+chunky/chunky/src/java/se/llbit/chunky/resources/ResourcePackBiomeLoader.java:81: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+                      Optional.ofNullable(json.effects.grass_color_modifier).ifPresent(modifier -> {
+                              ^
+chunky/chunky/src/java/se/llbit/chunky/ui/TableSortConfigSerializer.java:30: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                    Optional<TableColumn<T, ?>> column = table.getColumns().filtered(c -> c.getId().equals(member.getName())).stream().findFirst();
+                                                ^
+chunky/chunky/src/java/se/llbit/chunky/ui/TableSortConfigSerializer.java:30: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                    Optional<TableColumn<T, ?>> column = table.getColumns().filtered(c -> c.getId().equals(member.getName())).stream().findFirst();
+                                                                                                                                                ^
+chunky/chunky/src/java/se/llbit/chunky/ui/TableSortConfigSerializer.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+                    column.ifPresent(c -> {
+                                    ^
+chunky/chunky/src/java/se/llbit/chunky/ui/TableSortConfigSerializer.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+                        columns.add(column.get());
+                                              ^
+chunky/chunky/src/java/se/llbit/chunky/ui/TableSortConfigSerializer.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+                        columns.add(column.get());
+                                          ^
+chunky/chunky/src/java/se/llbit/chunky/ui/TableSortConfigSerializer.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+                    column.ifPresent(c -> {
+                          ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ResourcePackChooserController.java:382: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+          .orElseGet(() -> new PackListItem(
+                    ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/ResourcePackChooserController.java:382: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+          .orElseGet(() -> new PackListItem(
+          ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/SceneChooserController.java:102: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        if (alert.showAndWait().get() == ButtonType.OK) {
+                                   ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/SceneChooserController.java:102: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        if (alert.showAndWait().get() == ButtonType.OK) {
+                               ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/WorldChooserController.java:153: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+      .ifPresent(worldResourcePack -> {
+                ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/WorldChooserController.java:165: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+          if (loadTexturesConfirm.showAndWait().orElse(ButtonType.CANCEL) == ButtonType.YES) {
+                                                      ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/WorldChooserController.java:165: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+          if (loadTexturesConfirm.showAndWait().orElse(ButtonType.CANCEL) == ButtonType.YES) {
+                                               ^
+chunky/chunky/src/java/se/llbit/chunky/ui/controller/WorldChooserController.java:153: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+      .ifPresent(worldResourcePack -> {
+      ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/EntitiesTab.java:214: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+          playerIdentifierInput.showAndWait().map(playerIdentifier -> {
+                                                 ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/EntitiesTab.java:218: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+              Optional<MinecraftSkin> skin = profile.getSkin();
+                                      ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/EntitiesTab.java:218: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+              Optional<MinecraftSkin> skin = profile.getSkin();
+                                                            ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/EntitiesTab.java:219: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+              if (skin.isPresent()) { // If it found a skin, pass it back to caller
+                                ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/EntitiesTab.java:219: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+              if (skin.isPresent()) { // If it found a skin, pass it back to caller
+                      ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/EntitiesTab.java:221: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+                  skin.get(),
+                          ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/EntitiesTab.java:221: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+                  skin.get(),
+                      ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/EntitiesTab.java:230: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                skin = profile.getSkin();
+                ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/EntitiesTab.java:230: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                skin = profile.getSkin();
+                                      ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/EntitiesTab.java:231: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+                if (skin.isPresent()) {
+                                  ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/EntitiesTab.java:231: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+                if (skin.isPresent()) {
+                        ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/EntitiesTab.java:233: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+                    skin.get(),
+                            ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/EntitiesTab.java:233: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+                    skin.get(),
+                        ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/EntitiesTab.java:214: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+          playerIdentifierInput.showAndWait().map(playerIdentifier -> {
+                                             ^
+chunky/chunky/src/java/se/llbit/chunky/ui/elements/GradientEditor.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      Optional<String> result = dialog.showAndWait();
+                       ^
+chunky/chunky/src/java/se/llbit/chunky/ui/elements/GradientEditor.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      Optional<String> result = dialog.showAndWait();
+                                                  ^
+chunky/chunky/src/java/se/llbit/chunky/ui/elements/GradientEditor.java:136: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (result.isPresent()) {
+                          ^
+chunky/chunky/src/java/se/llbit/chunky/ui/elements/GradientEditor.java:136: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (result.isPresent()) {
+                ^
+chunky/chunky/src/java/se/llbit/chunky/ui/elements/GradientEditor.java:137: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        importGradient(result.get());
+                                 ^
+chunky/chunky/src/java/se/llbit/chunky/ui/elements/GradientEditor.java:137: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        importGradient(result.get());
+                             ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/AdvancedTab.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        return PictureExportFormats.getFormat(string).orElse(PictureExportFormats.PNG);
+                                                            ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/AdvancedTab.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        return PictureExportFormats.getFormat(string).orElse(PictureExportFormats.PNG);
+                                                     ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/AdvancedTab.java:278: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        ButtonType result = warning.showAndWait().orElse(ButtonType.CANCEL);
+                                                        ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/AdvancedTab.java:278: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        ButtonType result = warning.showAndWait().orElse(ButtonType.CANCEL);
+                                                 ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/GeneralTab.java:213: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      Optional<String> result = dialog.showAndWait();
+                       ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/GeneralTab.java:213: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      Optional<String> result = dialog.showAndWait();
+                                                  ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/GeneralTab.java:214: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (result.isPresent()) {
+                          ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/GeneralTab.java:214: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (result.isPresent()) {
+                ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/GeneralTab.java:215: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        String text = result.get();
+                                ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/GeneralTab.java:215: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        String text = result.get();
+                            ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/GeneralTab.java:235: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+          if (alert.showAndWait().get() == ButtonType.OK) {
+                                     ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/GeneralTab.java:235: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+          if (alert.showAndWait().get() == ButtonType.OK) {
+                                 ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/LightingTab.java:124: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+          ButtonType result = warning.showAndWait().orElse(ButtonType.CANCEL);
+                                                          ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/LightingTab.java:124: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+          ButtonType result = warning.showAndWait().orElse(ButtonType.CANCEL);
+                                                   ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/PostprocessingTab.java:99: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        return PostProcessingFilters.getPostProcessingFilterFromName(string).orElse(Scene.DEFAULT_POSTPROCESSING_FILTER);
+                                                                                   ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/PostprocessingTab.java:99: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        return PostProcessingFilters.getPostProcessingFilterFromName(string).orElse(Scene.DEFAULT_POSTPROCESSING_FILTER);
+                                                                            ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/TexturesTab.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+    ButtonType result = warning.showAndWait().orElse(ButtonType.CANCEL);
+                                                    ^
+chunky/chunky/src/java/se/llbit/chunky/ui/render/tabs/TexturesTab.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+    ButtonType result = warning.showAndWait().orElse(ButtonType.CANCEL);
+                                             ^
+chunky/chunky/src/java/se/llbit/chunky/world/region/MCRegionChangeWatcher.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+            Platform.runLater(() -> dimension.getPlayerPos().ifPresent(mapView::panTo));
+                                                                      ^
+chunky/chunky/src/java/se/llbit/chunky/world/region/MCRegionChangeWatcher.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+            Platform.runLater(() -> dimension.getPlayerPos().ifPresent(mapView::panTo));
+                                                            ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+191 warnings
+
+> Task :chunky:updateVersionString UP-TO-DATE
+> Task :chunky:processResources
+> Task :chunky:classes
+> Task :chunky:jar
+> Task :chunky:startScripts
+> Task :chunky:distTar
+> Task :chunky:distZip
+> Task :chunky:assemble
+> Task :launcher:createCheckerFrameworkManifest
+
+> Task :launcher:compileJava
+warning: ReportChecker did not find annotation file or directory chunky/launcher/reportoptional.astub on classpath or within directory chunky/launcher
+    Classpath:
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-java-compiler-plugin-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-language-java-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-language-jvm-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-platform-base-8.0.2.jar
+    file:/homes/gws/mernst/.m2/repository/org/checkerframework/checker/3.41.1-SNAPSHOT/checker-3.41.1-SNAPSHOT.jar
+    file:/homes/gws/mernst/.m2/repository/org/checkerframework/checker-util/3.41.1-SNAPSHOT/checker-util-3.41.1-SNAPSHOT.jar
+    file:/homes/gws/mernst/.m2/repository/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/checker-qual-3.41.1-SNAPSHOT.jar
+    file://chunky/launcher/build/checkerframework/
+    file:.gradle/caches/8.0.2/workerMain/gradle-worker.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-base-services-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/guava-31.1-jre.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-messaging-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-model-core-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-logging-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-logging-api-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-core-api-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-workers-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/native-platform-0.22-milestone-24.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-core-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-native-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-file-collections-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-worker-processes-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-process-services-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/slf4j-api-1.7.30.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-persistent-cache-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-files-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-hashing-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-snapshots-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/groovy-3.0.13.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/groovy-ant-3.0.13.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/groovy-json-3.0.13.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/groovy-xml-3.0.13.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/kryo-2.24.0.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-cli-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/jul-to-slf4j-1.7.30.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/javax.inject-1.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-jvm-services-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/asm-9.3.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-enterprise-logging-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-enterprise-workers-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-wrapper-shared-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-dependency-management-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-file-temp-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-base-annotations-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-build-operations-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/commons-lang-2.6.jar
+Note: chunky/launcher/src/se/llbit/chunky/launcher/JavaFxInstaller.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+> Task :launcher:processResources
+> Task :launcher:classes
+> Task :launcher:jar
+> Task :launcher:assemble
+> Task :lib:assemble
+> Task :releasetools:createCheckerFrameworkManifest
+
+> Task :releasetools:compileJava
+warning: ReportChecker did not find annotation file or directory chunky/releasetools/reportoptional.astub on classpath or within directory chunky/releasetools
+    Classpath:
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-java-compiler-plugin-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-language-java-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-language-jvm-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-platform-base-8.0.2.jar
+    file:/homes/gws/mernst/.m2/repository/org/checkerframework/checker/3.41.1-SNAPSHOT/checker-3.41.1-SNAPSHOT.jar
+    file:/homes/gws/mernst/.m2/repository/org/checkerframework/checker-util/3.41.1-SNAPSHOT/checker-util-3.41.1-SNAPSHOT.jar
+    file:/homes/gws/mernst/.m2/repository/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/checker-qual-3.41.1-SNAPSHOT.jar
+    file://chunky/releasetools/build/checkerframework/
+    file:.gradle/caches/8.0.2/workerMain/gradle-worker.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-base-services-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/guava-31.1-jre.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-messaging-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-model-core-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-logging-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-logging-api-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-core-api-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-workers-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/native-platform-0.22-milestone-24.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-core-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-native-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-file-collections-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-worker-processes-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-process-services-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/slf4j-api-1.7.30.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-persistent-cache-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-files-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-hashing-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-snapshots-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/groovy-3.0.13.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/groovy-ant-3.0.13.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/groovy-json-3.0.13.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/groovy-xml-3.0.13.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/kryo-2.24.0.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-cli-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/jul-to-slf4j-1.7.30.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/javax.inject-1.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-jvm-services-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/asm-9.3.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-enterprise-logging-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-enterprise-workers-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-wrapper-shared-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/plugins/gradle-dependency-management-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-file-temp-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-base-annotations-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/gradle-build-operations-8.0.2.jar
+    file:.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2/lib/commons-lang-2.6.jar
+1 warning
+
+> Task :releasetools:processResources NO-SOURCE
+> Task :releasetools:classes
+> Task :releasetools:jar
+> Task :releasetools:assemble
+
+BUILD SUCCESSFUL in 36s
+18 actionable tasks: 17 executed, 1 up-to-date
+
+Compilation finished at Thu Dec 14 16:00:25

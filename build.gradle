@@ -73,6 +73,7 @@ subprojects {
           '-AassumeAssertionsAreEnabled',
           '-AReportChecker_warns',
           "-Astubs=${project.projectDir}/reportoptional.astub",
+	  "-Xmaxwarns", "99999"
        ]
        excludeTests = true
     }
@@ -276,9 +277,3 @@ task clean {
         delete "./build"
     }
 }
-
-afterEvaluate {
-     tasks.withType(JavaCompile) {
-         options.compilerArgs << "-Xmaxwarns" << "99999"
-     }
- }
