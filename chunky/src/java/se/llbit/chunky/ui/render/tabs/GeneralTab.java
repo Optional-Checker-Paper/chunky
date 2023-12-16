@@ -195,7 +195,7 @@ public class GeneralTab extends ScrollPane implements RenderControlsTab, Initial
     return this.wrapper;
   }
 
-  @SuppressWarnings("optional:method.invocation") // true positive: get : Option created with .ofNullable in library on something that is not null in current implementation. However, the implementation of the library is not a contract and could change.
+  @SuppressWarnings("optional:method.invocation") // true positive: javafx.scene.control.Alert.showAndWait() may return an empty Optional.
   @Override public void initialize(URL location, ResourceBundle resources) {
     // TODO: parentTab.setGraphic(new ImageView(Icon.wrench.fxImage()));
 
